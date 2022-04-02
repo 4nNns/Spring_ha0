@@ -4,7 +4,7 @@ import com.ha0l.spring.SpringApplicationContext;
 
 public class Test {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
 
         SpringApplicationContext springApplicationContext = new SpringApplicationContext(AppConfig.class);
 
